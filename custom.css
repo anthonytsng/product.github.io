@@ -4,13 +4,15 @@ h1, h2, h3, h4, h5, h6, i { font-family: 'Abril Fatface', cursive; }
 p { font-family: 'arial'; }
 
 /*La couleur dominante*/
-.circle, .navbar, .frame { border-color: #00898E; }
-h1, h2, h3, h4, h5, h6, i, .item { color: #00898E; }
+.circle, .navbar, .frame { border-color: skyblue; }
+h1, h2, h3, h4, h5, h6, i, .item { color: darkblue; }
 
 /*Le fond de couleur*/
 /*Récupérer ces propriétés sur Ui Gradients: https://uigradients.com*/
 .bg-color {
-  background: #74ebd5;
-  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
-  background: linear-gradient(to right, #ACB6E5, #74ebd5);
+background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
